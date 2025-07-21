@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cal
+  description: |
+    react-js cal
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Meeranmk/cal
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/cal
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
